@@ -8,3 +8,8 @@ For flask learning
 
 PORT:5000
 URL : http://localhost:5000/ or  http://localhost:5000/hello
+
+
+# How to Run
+> python hello.py
+
