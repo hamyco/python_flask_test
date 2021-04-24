@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+<form method="post" action="/sql_execute">
+cookie name:
+<input name="key" id="key">
+<br>
+cookie value:
+<input name="value" id="value">
+
+<input type="submit" value="set">
+</form>
+
+<a href="/">return home</a>
+{% endblock %}

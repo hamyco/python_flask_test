@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>data 一覧</h3>
+<ul>
+    {% for d in data %}
+    <li>{{ d }}</li>
+    {% endfor %}
+</ul>
+<br>
+<a href="/">return home</a>
+{% endblock %}
