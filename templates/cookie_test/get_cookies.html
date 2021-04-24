@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>cookie 一覧</h3>
+<ul>
+    {% for key in cookies %}
+    <li>{{ key}} : {{ cookies[key] }}</li>
+    {% endfor %}
+</ul>
+<br>
+<a href="/">return home</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+<form method="post" action="/set_cookies_execute">
+cookie name:
+<input name="cookie_name" id="cookie_name">
+<br>
+cookie value:
+<input name="cookie_value" id="cookie_value">
+
+<input type="submit" value="set">
+</form>
+
+<a href="/">return home</a>
+{% endblock %}
