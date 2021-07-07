@@ -14,6 +14,13 @@ def good():
     return name
 
 
+@app.route('/test')
+def good():
+    name = "test folder"
+    return name
+
+
+
 ## おまじない
 if __name__ == "__main__":
     app.run(debug=True)
